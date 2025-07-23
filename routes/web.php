@@ -8,6 +8,8 @@ Route::get('/', function () {
     return view('dashboard');
 });
 
+
+
 //for restaurants //////////////////////////////////////////////////////
 Route::get('/dashboard/restaurants',[PartnersController::class,'index_restaurants']);
 Route::get('/dashboard/restaurants/add',[PartnersController::class,'add_restaurants']);
